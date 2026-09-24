@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import type { PricingTier } from "@/lib/data";
 
-export default function PricingCard { tier }: { tier: PricingTier }) {
+export default function PricingCard({ tier }: { tier: PricingTier }) {
   return (
     <motion.div
       whileHover={{ y: -6 }}
