@@ -59,7 +59,16 @@ export default function Hero() {
               View Our Work <ArrowRight className="h-4 w-4" />
             </a>
           </motion.div>
-        </motion.div.
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 24 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
+          className="lg:justify-self-end"
+        >
+          <SystemVisual />
+        </motion.div>
       </div>
     </section>
   );
