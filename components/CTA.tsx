@@ -33,7 +33,7 @@ export default function CTA() {
 
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} className="mt-10">
           <a href="mailto:hello@codeframe.studio" className="btn-primary">Start a Project <ArrowRight className="h-4 w-4" /></a>
-        </motion.div.
+        </motion.div>
       </div>
     </section>
   );
